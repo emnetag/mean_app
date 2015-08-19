@@ -1,4 +1,9 @@
 .ssh/
 .sudo_as_admin_successful
 .bashrc
-.
+.bash_history
+.bash_logout
+.cache
+.config/
+.node-gyp/
+.profile
