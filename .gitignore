@@ -7,4 +7,4 @@
 .config/
 .node-gyp/
 .profile
-.npm/
+.npm/node_modules/*
