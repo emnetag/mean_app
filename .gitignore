@@ -7,4 +7,5 @@
 .config/
 .node-gyp/
 .profile
-.npm/node_modules/*
+.npm/
+.idea

@@ -1,19 +1,19 @@
-// public/js/appRoutes.js
+// public/appRoutes.js
 
 angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-
     $routeProvider
-
         .when('/', {
-            templateUrl: '../views/home.html',
+            templateUrl: 'views/home.html',
             controller: 'MainController'
         })
 
         .when('/nerds', {
-            templateUrl: '../views/nerd.html',
+            templateUrl: 'views/nerd.html',
             controller: 'NerdController'
         });
 
-    $locationProvider.html5Mode(true);
-
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+    });
 }]);
